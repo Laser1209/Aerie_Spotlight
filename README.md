@@ -1,2 +1,20 @@
-# Aerie_Spotlight
-Aerie · 云栖由 Electron 桌面壳与 Python 智能内核组成，办公学习、情感陪伴、电脑操控、主动关怀——一个就够了。
+# Aerie Spotlight
+
+Aerie Spotlight is the GitHub Pages showcase site for Aerie / Yunqi.
+
+## Development
+
+```bash
+npm ci
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+The Pages workflow builds the Vite app from `main` and deploys `dist`.
+Large Windows release binaries are published as GitHub Release assets instead
+of being committed to the Pages repository.
