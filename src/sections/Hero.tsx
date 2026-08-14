@@ -3,7 +3,7 @@ import { release } from '../config/release'
 import BlurText from '../components/BlurText'
 import { ArrowUpRight, PlayIcon, ClockIcon, GlobeIcon } from '../components/icons'
 
-const stackNames = ['Electron', 'Python', 'NapCat', 'Qwen', 'DeepSeek']
+const stackNames = ['Electron', 'Python', 'NapCat', 'Qwen', 'DeepSeek', 'Gemini', 'Flutter']
 
 const fadeIn = (delay: number) => ({
   initial: { filter: 'blur(10px)', opacity: 0, y: 20 },
@@ -36,8 +36,8 @@ export default function Hero() {
           {...fadeIn(0.8)}
           className="mt-4 max-w-2xl text-sm font-light leading-tight text-white md:text-base"
         >
-          Aerie · 云栖由 Electron 桌面壳与 Python
-          智能内核组成，办公学习、情感陪伴、电脑操控、主动关怀——一个就够了。
+          把陪伴写成你想要的模样——Aerie · 云栖由 Electron 桌面壳与 Python
+          智能内核组成，办公学习、情感陪伴、电脑操控、主动关怀，一个就够了。
         </motion.p>
 
         <motion.div {...fadeIn(1.1)} className="mt-6 flex items-center gap-6">
