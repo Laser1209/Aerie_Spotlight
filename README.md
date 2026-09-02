@@ -1,6 +1,6 @@
 # Aerie Spotlight
 
-Aerie Spotlight is the standalone GitHub Pages showcase site for **Aerie · 云栖**.
+Aerie Spotlight is the standalone GitHub Pages showcase site for **Aerie Companion**.
 
 Live site: https://spotlight.etta.top/
 
